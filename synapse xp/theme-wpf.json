@@ -1,0 +1,545 @@
+{
+  "Version": 2,
+  "Load": {
+    "Base": {
+      "Image": {
+        "Path": "https://i.imgur.com/3OEB2c2.png",
+        "Online": true
+      },
+      "BackColor": {
+        "A": 0,
+        "R": 51,
+        "G": 51,
+        "B": 51
+      },
+      "TopMost": true,
+      "Opacity": 1.0
+    },
+    "BaseStrings": {
+      "CheckingWhitelist": "Checking WL",
+      "ChangingWhitelist": "Setting WL",
+      "DownloadingData": "Updating",
+      "CheckingData": "Verifying Update",
+      "DownloadingDlls": "Downloading DLL's",
+      "DownloadingMonaco": "Loading",
+      "DownloadingCefSharp": "Loading",
+      "DownloadingSQLite": "Loading",
+      "JoiningDiscord": "Loading",
+      "Ready": "Welcome to Synapse XP!"
+    },
+    "Logo": {
+      "Image": {
+        "Path": "https://i.imgur.com/6zx1Vmo.png",
+        "Online": false
+      }
+    },
+    "TopBox": {
+      "Enabled": true,
+      "BackColor": {
+        "A": 0,
+        "R": 0,
+        "G": 0,
+        "B": 0
+      }
+    },
+    "TitleBox": {
+      "Enabled": true,
+      "Font": {
+        "Name": "MS Gothic",
+        "Size": 16.0
+      },
+      "Text": "Synapse XP",
+      "BackColor": {
+        "A": 0,
+        "R": 60,
+        "G": 60,
+        "B": 60
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 255,
+        "G": 255,
+        "B": 255
+      }
+    },
+    "StatusBox": {
+      "Enabled": true,
+      "Font": {
+        "Name": "MS Gothic",
+        "Size": 16.0
+      },
+      "Text": "Initializing...",
+      "BackColor": {
+        "A": 0,
+        "R": 51,
+        "G": 51,
+        "B": 51
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 0,
+        "G": 0,
+        "B": 0
+      }
+    }
+  },
+  "Main": {
+    "Base": {
+      "Image": {
+        "Path": "https://i.imgur.com/eH1DWXY.png",
+        "Online": true
+      },
+      "BackColor": {
+        "A": 255,
+        "R": 26,
+        "G": 26,
+        "B": 26
+      },
+      "TopMost": true,
+      "Opacity": 1.0
+    },
+    "WebSocket": {
+      "Enabled": false,
+      "DebugMode": false
+    },
+    "Editor": {
+      "Light": true,
+      "FixPixel": {
+        "A": 255,
+        "R": 255,
+        "G": 255,
+        "B": 255
+      }
+    },
+    "BaseStrings": {
+      "Checking": "Launching...",
+      "Injecting": "Connecting.",
+      "CheckingWhitelist": "Connecting..",
+      "Scanning": "Connecting...",
+      "Ready": "Connected!",
+      "FailedToFindRoblox": "Failed to connect!",
+      "NotRunningLatestVersion": "Not running latest version! Relaunch.",
+      "NotInjected": "Not connected! Press dial",
+      "AlreadyInjected": "Already connected!"
+    },
+    "RightClickStrings": {
+      "Execute": "Execute",
+      "LoadToEditor": "Load to Editor",
+      "Refresh": "Refresh"
+    },
+    "Logo": {
+      "Image": {
+        "Path": "https://i.imgur.com/6zx1Vmo.png",
+        "Online": false
+      }
+    },
+    "TopBox": {
+      "Enabled": true,
+      "BackColor": {
+        "A": 0, 
+        "R": 60,
+        "G": 60,
+        "B": 60
+      }
+    },
+    "TitleBox": {
+      "Enabled": true,
+      "Font": {
+        "Name": "MS Gothic",
+        "Size": 16.0
+      },
+      "FormatString": "",
+      "BackColor": {
+        "A": 0,
+        "R": 60,
+        "G": 60,
+        "B": 60
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 255,
+        "G": 255,
+        "B": 255
+      }
+    },
+    "ScriptBox": {
+      "Font": {
+        "Name": "MS Gothic",
+        "Size": 13.0
+      },
+      "BackColor": {
+        "A": 0,
+        "R": 0,
+        "G": 0,
+        "B": 0
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 0,
+        "G": 0,
+        "B": 0
+      }
+    },
+    "MinimizeButton": {
+      "BackColor": {
+        "A": 0, 
+        "R": 60,
+        "G": 60,
+        "B": 60
+      },
+      "GlyphColor": {
+        "A": 255,
+        "R": 255,
+        "G": 255,
+        "B": 255
+      }
+    },
+    "ExitButton": {
+      "BackColor": {
+        "A": 0,
+        "R": 60,
+        "G": 60,
+        "B": 60
+      },
+      "GlyphColor": {
+        "A": 255,
+        "R": 255,
+        "G": 255,
+        "B": 255
+      }
+    },
+    "ExecuteButton": {
+      "Image": {
+        "Path": "",
+        "Online": false
+      },
+      "Font": {
+        "Name": "MS Gothic",
+        "Size": 16.0
+      },
+      "BackColor": {
+        "A": 0,
+        "R": 60,
+        "G": 60,
+        "B": 60
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 0,
+        "G": 0,
+        "B": 0
+      },
+      "Text": "Send"
+    },
+    "ClearButton": {
+      "Image": {
+        "Path": "",
+        "Online": false
+      },
+      "Font": {
+        "Name": "MS Gothic",
+        "Size": 16.0
+      },
+      "BackColor": {
+        "A": 0,
+        "R": 60,
+        "G": 60,
+        "B": 60
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 0,
+        "G": 0,
+        "B": 0
+      },
+      "Text": ""
+    },
+    "OpenFileButton": {
+      "Image": {
+        "Path": "",
+        "Online": false
+      },
+      "Font": {
+        "Name": "MS Gothic",
+        "Size": 16.0
+      },
+      "BackColor": {
+        "A": 0,
+        "R": 60,
+        "G": 60,
+        "B": 60
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 0,
+        "G": 0,
+        "B": 0
+      },
+      "Text": "Open"
+    },
+    "ExecuteFileButton": {
+      "Image": {
+        "Path": "",
+        "Online": false
+      },
+      "Font": {
+        "Name": "MS Gothic",
+        "Size": 16.0
+      },
+      "BackColor": {
+        "A": 0,
+        "R": 60,
+        "G": 60,
+        "B": 60
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 0,
+        "G": 0,
+        "B": 0
+      },
+      "Text": "Load File"
+    },
+    "SaveFileButton": {
+      "Image": {
+        "Path": "",
+        "Online": false
+      },
+      "Font": {
+        "Name": "MS Gothic",
+        "Size": 16.0
+      },
+      "BackColor": {
+        "A": 0,
+        "R": 60,
+        "G": 60,
+        "B": 60
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 0,
+        "G": 0,
+        "B": 0
+      },
+      "Text": "Save File"
+    },
+    "OptionsButton": {
+      "Image": {
+        "Path": "",
+        "Online": false
+      },
+      "Font": {
+        "Name": "MS Gothic",
+        "Size": 16.0
+      },
+      "BackColor": {
+        "A": 0,
+        "R": 60,
+        "G": 60,
+        "B": 60
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 0,
+        "G": 0,
+        "B": 0
+      },
+      "Text": "Options"
+    },
+    "AttachButton": {
+      "Image": {
+        "Path": "",
+        "Online": false
+      },
+      "Font": {
+        "Name": "MS Gothic",
+        "Size": 16.0
+      },
+      "BackColor": {
+        "A": 0,
+        "R": 60,
+        "G": 60,
+        "B": 60
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 0,
+        "G": 0,
+        "B": 0
+      },
+      "Text": "Dial"
+    },
+    "ScriptHubButton": {
+      "Image": {
+        "Path": "",
+        "Online": false
+      },
+      "Font": {
+        "Name": "MS Gothic",
+        "Size": 16.0
+      },
+      "BackColor": {
+        "A": 0,
+        "R": 60,
+        "G": 60,
+        "B": 60
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 0,
+        "G": 0,
+        "B": 0
+      },
+      "TextNormal": "SH",
+      "TextYield": "loading..."
+    }
+  },
+  "ScriptHub": {
+    "Base": {
+      "Image": {
+        "Path": "https://i.imgur.com/FEgKRcx.png",
+        "Online": true
+      },
+      "BackColor": {
+        "A": 0,
+        "R": 51,
+        "G": 51,
+        "B": 51
+      },
+      "TopMost": true,
+      "Opacity": 1.0
+    },
+    "Logo": {
+      "Image": {
+        "Path": "https://i.imgur.com/6zx1Vmo.png",
+        "Online": false
+      }
+    },
+    "TopBox": {
+      "Enabled": true,
+      "BackColor": {
+        "A": 0,
+        "R": 60,
+        "G": 60,
+        "B": 60
+      }
+    },
+    "TitleBox": {
+      "Enabled": true,
+      "Font": {
+        "Name": "MS Gothic",
+        "Size": 16.0
+      },
+      "Text": "",
+      "BackColor": {
+        "A": 0,
+        "R": 60,
+        "G": 60,
+        "B": 60
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 255,
+        "G": 255,
+        "B": 255
+      }
+    },
+    "ScriptBox": {
+      "Font": {
+        "Name": "MS Gothic",
+        "Size": 16.0
+      },
+      "BackColor": {
+        "A": 0,
+        "R": 30,
+        "G": 30,
+        "B": 30
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 0,
+        "G": 0,
+        "B": 0
+      }
+    },
+    "DescriptionBox": {
+      "Font": {
+        "Name": "MS Gothic",
+        "Size": 14.0
+      },
+      "BackColor": {
+        "A": 0,
+        "R": 30,
+        "G": 30,
+        "B": 30
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 0,
+        "G": 0,
+        "B": 0
+      }
+    },
+    "MinimizeButton": {
+      "BackColor": {
+        "A": 0,
+        "R": 60,
+        "G": 60,
+        "B": 60
+      },
+      "GlyphColor": {
+        "A": 255,
+        "R": 255,
+        "G": 255,
+        "B": 255
+      }
+    },
+    "ExecuteButton": {
+      "Image": {
+        "Path": "",
+        "Online": false
+      },
+      "Font": {
+        "Name": "MS Gothic",
+        "Size": 15.0
+      },
+      "BackColor": {
+        "A": 0,
+        "R": 60,
+        "G": 60,
+        "B": 60
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 0,
+        "G": 0,
+        "B": 0
+      },
+      "TextNormal": "Send",
+      "TextYield": "Sending..."
+    },
+    "CloseButton": {
+      "Image": {
+        "Path": "",
+        "Online": false
+      },
+      "Font": {
+        "Name": "MS Gothic",
+        "Size": 14.0
+      },
+      "BackColor": {
+        "A": 0,
+        "R": 60,
+        "G": 60,
+        "B": 60
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 0,
+        "G": 0,
+        "B": 0
+      },
+      "Text": "Close"
+    }
+  }
+}

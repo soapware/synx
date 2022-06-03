@@ -1,0 +1,545 @@
+{
+  "Version": 2,
+  "Load": {
+    "Base": {
+      "Image": {
+        "Path": "https://i.imgur.com/dBZloGS.png",
+        "Online": true
+      },
+      "BackColor": {
+        "A": 0,
+        "R": 51,
+        "G": 51,
+        "B": 51
+      },
+      "TopMost": true,
+      "Opacity": 1.0
+    },
+    "BaseStrings": {
+      "CheckingWhitelist": "Loading Aimware.",
+      "ChangingWhitelist": "Loading Aimware..",
+      "DownloadingData": "Loading Aimware...",
+      "CheckingData": "Loading Aimware.",
+      "DownloadingDlls": "Loading Aimware..",
+      "DownloadingMonaco": "Loading Aimware...",
+      "DownloadingCefSharp": "Loading Aimware.",
+      "DownloadingSQLite": "Loading Aimware..",
+      "JoiningDiscord": "Loading Aimware...",
+      "Ready": "Welcome To Aimware."
+    },
+    "Logo": {
+      "Image": {
+        "Path": "https://i.imgur.com/NOpbWw9.png",
+        "Online": false
+      }
+    },
+    "TopBox": {
+      "Enabled": true,
+      "BackColor": {
+        "A": 0,
+        "R": 0,
+        "G": 0,
+        "B": 0
+      }
+    },
+    "TitleBox": {
+      "Enabled": true,
+      "Font": {
+        "Name": "Titillium Web Regular",
+        "Size": 18.0
+      },
+      "Text": "Aimware",
+      "BackColor": {
+        "A": 0,
+        "R": 60,
+        "G": 60,
+        "B": 60
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 230,
+        "G": 230,
+        "B": 230
+      }
+    },
+    "StatusBox": {
+      "Enabled": true,
+      "Font": {
+        "Name": "Titillium Web Regular",
+        "Size": 16.0
+      },
+      "Text": "Initializing...",
+      "BackColor": {
+        "A": 0,
+        "R": 51,
+        "G": 51,
+        "B": 51
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 230,
+        "G": 230,
+        "B": 230
+      }
+    }
+  },
+  "Main": {
+    "Base": {
+      "Image": {
+        "Path": "https://i.imgur.com/B7DtfQR.png",
+        "Online": true
+      },
+      "BackColor": {
+        "A": 255,
+        "R": 0,
+        "G": 0,
+        "B": 0
+      },
+      "TopMost": true,
+      "Opacity": 1.0
+    },
+    "WebSocket": {
+      "Enabled": false,
+      "DebugMode": false
+    },
+    "Editor": {
+      "Light": true,
+      "FixPixel": {
+        "A": 255,
+        "R": 255,
+        "G": 255,
+        "B": 255
+      }
+    },
+    "BaseStrings": {
+      "Checking": " (Booting...)",
+      "Injecting": " (Connecting.)",
+      "CheckingWhitelist": " (Connecting..)",
+      "Scanning": " (Connecting...)",
+      "Ready": " (Connected!)",
+      "FailedToFindRoblox": " (Roblox not running.)",
+      "NotRunningLatestVersion": " (Not running latest version! relaunch.)",
+      "NotInjected": " (Not connected! press Connect)",
+      "AlreadyInjected": " (Already connected!)"
+    },
+    "RightClickStrings": {
+      "Execute": "Execute",
+      "LoadToEditor": "Load to Editor",
+      "Refresh": "Refresh"
+    },
+    "Logo": {
+      "Image": {
+        "Path": "https://i.imgur.com/NOpbWw9.png",
+        "Online": false
+      }
+    },
+    "TopBox": {
+      "Enabled": true,
+      "BackColor": {
+        "A": 0,
+        "R": 0,
+        "G": 0,
+        "B": 0
+      }
+    },
+    "TitleBox": {
+      "Enabled": true,
+      "Font": {
+        "Name": "Titillium Web Regular",
+        "Size": 17
+      },
+      "FormatString": "Aimware - {version}",
+      "BackColor": {
+        "A": 0,
+        "R": 0,
+        "G": 0,
+        "B": 0
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 255,
+        "G": 255,
+        "B": 255
+      }
+    },
+    "ScriptBox": {
+      "Font": {
+        "Name": "Titillium Web Regular",
+        "Size": 15.0
+      },
+      "BackColor": {
+        "A": 0,
+        "R": 0,
+        "G": 0,
+        "B": 0
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 244,
+        "G": 244,
+        "B": 244
+      }
+    },
+    "MinimizeButton": {
+      "BackColor": {
+        "A": 0,
+        "R": 255,
+        "G": 255,
+        "B": 255
+      },
+      "GlyphColor": {
+        "A": 255,
+        "R": 255,
+        "G": 255,
+        "B": 255
+      }
+    },
+    "ExitButton": {
+      "BackColor": {
+        "A": 0,
+        "R": 255,
+        "G": 255,
+        "B": 255
+      },
+      "GlyphColor": {
+        "A": 255,
+        "R": 255,
+        "G": 255,
+        "B": 255
+      }
+    },
+    "ExecuteButton": {
+      "Image": {
+        "Path": "",
+        "Online": false
+      },
+      "Font": {
+        "Name": "Titillium Web Regular",
+        "Size": 18.0
+      },
+      "BackColor": {
+        "A": 0,
+        "R": 60,
+        "G": 60,
+        "B": 60
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 0,
+        "G": 0,
+        "B": 0
+      },
+      "Text": "Execute"
+    },
+    "ClearButton": {
+      "Image": {
+        "Path": "",
+        "Online": false
+      },
+      "Font": {
+        "Name": "Titillium Web Regular",
+        "Size": 18.0
+      },
+      "BackColor": {
+        "A": 0,
+        "R": 60,
+        "G": 60,
+        "B": 60
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 0,
+        "G": 0,
+        "B": 0
+      },
+      "Text": "Clear"
+    },
+    "OpenFileButton": {
+      "Image": {
+        "Path": "",
+        "Online": false
+      },
+      "Font": {
+        "Name": "Titillium Web Regular",
+        "Size": 18.0
+      },
+      "BackColor": {
+        "A": 0,
+        "R": 60,
+        "G": 60,
+        "B": 60
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 0,
+        "G": 0,
+        "B": 0
+      },
+      "Text": "Open"
+    },
+    "ExecuteFileButton": {
+      "Image": {
+        "Path": "",
+        "Online": false
+      },
+      "Font": {
+        "Name": "Titillium Web Regular",
+        "Size": 18.0
+      },
+      "BackColor": {
+        "A": 0,
+        "R": 60,
+        "G": 60,
+        "B": 60
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 0,
+        "G": 0,
+        "B": 0
+      },
+      "Text": "ExFile"
+    },
+    "SaveFileButton": {
+      "Image": {
+        "Path": "",
+        "Online": false
+      },
+      "Font": {
+        "Name": "Titillium Web Regular",
+        "Size": 18.0
+      },
+      "BackColor": {
+        "A": 0,
+        "R": 60,
+        "G": 60,
+        "B": 60
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 0,
+        "G": 0,
+        "B": 0
+      },
+      "Text": "Save File"
+    },
+    "OptionsButton": {
+      "Image": {
+        "Path": "",
+        "Online": false
+      },
+      "Font": {
+        "Name": "Titillium Web Regular",
+        "Size": 18.0
+      },
+      "BackColor": {
+        "A": 0,
+        "R": 60,
+        "G": 60,
+        "B": 60
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 0,
+        "G": 0,
+        "B": 0
+      },
+      "Text": "Misc"
+    },
+    "AttachButton": {
+      "Image": {
+        "Path": "",
+        "Online": false
+      },
+      "Font": {
+        "Name": "Titillium Web Regular",
+        "Size": 18.0
+      },
+      "BackColor": {
+        "A": 0,
+        "R": 60,
+        "G": 60,
+        "B": 60
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 0,
+        "G": 0,
+        "B": 0
+      },
+      "Text": "Inject"
+    },
+    "ScriptHubButton": {
+      "Image": {
+        "Path": "",
+        "Online": false
+      },
+      "Font": {
+        "Name": "Titillium Web Regular",
+        "Size": 18.0
+      },
+      "BackColor": {
+        "A": 0,
+        "R": 60,
+        "G": 60,
+        "B": 60
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 0,
+        "G": 0,
+        "B": 0
+      },
+      "TextNormal": "Browser",
+      "TextYield": "Connected"
+    }
+  },
+  "ScriptHub": {
+    "Base": {
+      "Image": {
+        "Path": "https://i.imgur.com/ZcAzEPH.png",
+        "Online": true
+      },
+      "BackColor": {
+        "A": 0,
+        "R": 51,
+        "G": 51,
+        "B": 51
+      },
+      "TopMost": true,
+      "Opacity": 1.0
+    },
+    "Logo": {
+      "Image": {
+        "Path": "https://i.imgur.com/NOpbWw9.png",
+        "Online": false
+      }
+    },
+    "TopBox": {
+      "Enabled": true,
+      "BackColor": {
+        "A": 0,
+        "R": 60,
+        "G": 60,
+        "B": 60
+      }
+    },
+    "TitleBox": {
+      "Enabled": true,
+      "Font": {
+        "Name": "Titillium Web Regular",
+        "Size": 17.0
+      },
+      "Text": "Aimware - Script Hub",
+      "BackColor": {
+        "A": 0,
+        "R": 60,
+        "G": 60,
+        "B": 60
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 255,
+        "G": 255,
+        "B": 255
+      }
+    },
+    "ScriptBox": {
+      "Font": {
+        "Name": "Titillium Web Regular",
+        "Size": 16.0
+      },
+      "BackColor": {
+        "A": 0,
+        "R": 30,
+        "G": 30,
+        "B": 30
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 240,
+        "G": 240,
+        "B": 240
+      }
+    },
+    "DescriptionBox": {
+      "Font": {
+        "Name": "Titillium Web Regular",
+        "Size": 15.0
+      },
+      "BackColor": {
+        "A": 0,
+        "R": 30,
+        "G": 30,
+        "B": 30
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 255,
+        "G": 255,
+        "B": 255
+      }
+    },
+    "MinimizeButton": {
+      "BackColor": {
+        "A": 0,
+        "R": 60,
+        "G": 60,
+        "B": 60
+      },
+      "GlyphColor": {
+        "A": 255,
+        "R": 255,
+        "G": 255,
+        "B": 255
+      }
+    },
+    "ExecuteButton": {
+      "Image": {
+        "Path": "",
+        "Online": false
+      },
+      "Font": {
+        "Name": "Titillium Web Regular",
+        "Size": 15.0
+      },
+      "BackColor": {
+        "A": 0,
+        "R": 60,
+        "G": 60,
+        "B": 60
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 0,
+        "G": 0,
+        "B": 0
+      },
+      "TextNormal": "Load",
+      "TextYield": "Loading..."
+    },
+    "CloseButton": {
+      "Image": {
+        "Path": "",
+        "Online": false
+      },
+      "Font": {
+        "Name": "Titillium Web Regular",
+        "Size": 15.0
+      },
+      "BackColor": {
+        "A": 0,
+        "R": 60,
+        "G": 60,
+        "B": 60
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 0,
+        "G": 0,
+        "B": 0
+      },
+      "Text": "Close"
+    }
+  }
+}

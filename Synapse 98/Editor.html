@@ -1,0 +1,105 @@
+﻿  <!D<!DOCTYPE html>
+<html lang="en">
+  <head>
+		<style type="text/css">
+			html,
+			body {
+				width: 100%;
+				height: 100%;
+				margin: 0;
+				padding: 0;
+				overflow: hidden;
+				background-repeat: no-repeat;
+				background-attachment: scroll;
+				background-image: url("https://cdn.discordapp.com/attachments/509754618918469632/851622490286981130/ok.gif");
+			}
+
+    #editor {
+        margin: 0;
+	opacity: 0.4;
+	background-color: rgba(0, 0, 0, 0);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+  </style>
+  <script src="ace/ace.js" type="text/javascript" charset="utf-8"></script>
+  <script src="ace/ext-language_tools.js"></script>
+</head>
+    <pre id="editor"></pre>
+    <script>
+        var GetText;
+        var SetText;
+        var ClearText;
+        var SetTheme;
+
+        ace.require("ace/ext/language_tools");
+        var editor = ace.edit("editor");
+        editor.setTheme("ace/theme/tomorrow_night_eighties");
+        editor.session.setMode("ace/mode/lua");
+        editor.setOption("enableLiveAutocompletion", true);
+        editor.setOption("cursorStyle", "smooth");
+        editor.setShowPrintMargin(false);
+        document.getElementById('editor').style.fontSize='13px';
+
+        /* do not edit below - Synapse X internal code */
+        GetText = function()
+        {
+            return editor.getValue();
+        }
+
+        SetText = function(x)
+        {
+          editor.setValue(x);
+          editor.session.setValue(x);
+        }
+
+        ClearText = function()
+        {
+          editor.setValue("");
+        }
+
+        SetTheme = function(th)
+        {
+          editor.setTheme("ace/theme/" + th);
+        }
+
+        editor.on("input", async function() 
+        {
+          await CefSharp.BindObjectAsync("synServiceAsync");
+
+          synServiceAsync.textChanged(editor.getValue());
+        });
+
+        document.addEventListener('keydown', async e => 
+        {
+          if (e.ctrlKey) 
+          {
+            if (e.key === 's')
+            {
+              e.preventDefault();
+
+              await CefSharp.BindObjectAsync("synServiceAsync");
+
+              synServiceAsync.saveRequest(editor.getValue());
+            }
+            else if (e.key === 'o')
+            {
+              e.preventDefault();
+
+              await CefSharp.BindObjectAsync("synServiceAsync");
+
+              synServiceAsync.openRequest();
+            }
+          }
+        });
+
+        document.oncontextmenu = function()
+        {
+          return false;
+        }
+    </script>
+  </body>
+</html>

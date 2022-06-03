@@ -1,0 +1,545 @@
+{
+  "Version": 2,
+  "Load": {
+    "Base": {
+      "Image": {
+        "Path": "https://foob.cc/i/KuVz0XH.png",
+        "Online": true
+      },
+      "BackColor": {
+        "A": 0,
+        "R": 51,
+        "G": 51,
+        "B": 51
+      },
+      "TopMost": true,
+      "Opacity": 1.0
+    },
+    "BaseStrings": {
+      "CheckingWhitelist": "Checking Whitelist",
+      "ChangingWhitelist": "Setting Whitelist",
+      "DownloadingData": "Updating",
+      "CheckingData": "Verifying Files",
+      "DownloadingDlls": "Downloading DLL's",
+      "DownloadingMonaco": "Loading",
+      "DownloadingCefSharp": "Loading",
+      "DownloadingSQLite": "Loading",
+      "JoiningDiscord": "Loading",
+      "Ready": "☑️"
+    },
+    "Logo": {
+      "Image": {
+        "Path": "https://i.imgur.com/6zx1Vmo.png",
+        "Online": false
+      }
+    },
+    "TopBox": {
+      "Enabled": true,
+      "BackColor": {
+        "A": 0,
+        "R": 255,
+        "G": 255,
+        "B": 255
+      }
+    },
+    "TitleBox": {
+      "Enabled": true,
+      "Font": {
+        "Name": "",
+        "Size": 16.0
+      },
+      "Text": "",
+      "BackColor": {
+        "A": 0,
+        "R": 60,
+        "G": 60,
+        "B": 60
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 255,
+        "G": 255,
+        "B": 255
+      }
+    },
+    "StatusBox": {
+      "Enabled": true,
+      "Font": {
+        "Name": "Segoe UI",
+        "Size": 16.0
+      },
+      "Text": "Initializing...",
+      "BackColor": {
+        "A": 0,
+        "R": 51,
+        "G": 51,
+        "B": 51
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 255,
+        "G": 255,
+        "B": 255
+      }
+    }
+  },
+  "Main": {
+    "Base": {
+      "Image": {
+        "Path": "https://foob.cc/i/vqpHzZR.png",
+        "Online": true
+      },
+      "BackColor": {
+        "A": 255,
+        "R": 26,
+        "G": 26,
+        "B": 26
+      },
+      "TopMost": true,
+      "Opacity": 1.0
+    },
+    "WebSocket": {
+      "Enabled": true,
+      "DebugMode": true
+    },
+    "Editor": {
+      "Light": false,
+      "FixPixel": {
+        "A": 255,
+        "R": 255,
+        "G": 255,
+        "B": 255
+      }
+    },
+    "BaseStrings": {
+      "Checking": " - Launching...",
+      "Injecting": " - Connecting.",
+      "CheckingWhitelist": " - Connecting..",
+      "Scanning": " - Connecting...",
+      "Ready": " - Connected.",
+      "FailedToFindRoblox": " - Failed to connect",
+      "NotRunningLatestVersion": " - Not updated, please relaunch",
+      "NotInjected": " - Not connected, Press ⚠️",
+      "AlreadyInjected": " - Already connected."
+    },
+    "RightClickStrings": {
+      "Execute": "Execute",
+      "LoadToEditor": "Load to Editor",
+      "Refresh": "Refresh"
+    },
+    "Logo": {
+      "Image": {
+        "Path": "https://i.imgur.com/6zx1Vmo.png",
+        "Online": false
+      }
+    },
+    "TopBox": {
+      "Enabled": true,
+      "BackColor": {
+        "A": 0, 
+        "R": 60,
+        "G": 60,
+        "B": 60
+      }
+    },
+    "TitleBox": {
+      "Enabled": true,
+      "Font": {
+        "Name": "Segoe UI",
+        "Size": 16.0
+      },
+      "FormatString": "{version}",
+      "BackColor": {
+        "A": 0,
+        "R": 60,
+        "G": 60,
+        "B": 60
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 255,
+        "G": 255,
+        "B": 255
+      }
+    },
+    "ScriptBox": {
+      "Font": {
+        "Name": "Segoe UI",
+        "Size": 13.0
+      },
+      "BackColor": {
+        "A": 0,
+        "R": 0,
+        "G": 0,
+        "B": 0
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 160,
+        "G": 160,
+        "B": 160
+      }
+    },
+    "MinimizeButton": {
+      "BackColor": {
+        "A": 0, 
+        "R": 60,
+        "G": 60,
+        "B": 60
+      },
+      "GlyphColor": {
+        "A": 255,
+        "R": 255,
+        "G": 255,
+        "B": 255
+      }
+    },
+    "ExitButton": {
+      "BackColor": {
+        "A": 0,
+        "R": 60,
+        "G": 60,
+        "B": 60
+      },
+      "GlyphColor": {
+        "A": 255,
+        "R": 255,
+        "G": 255,
+        "B": 255
+      }
+    },
+    "ExecuteButton": {
+      "Image": {
+        "Path": "",
+        "Online": true
+      },
+      "Font": {
+        "Name": "",
+        "Size": 18.0
+      },
+      "BackColor": {
+        "A": 0,
+        "R": 60,
+        "G": 60,
+        "B": 60
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 149,
+        "G": 149,
+        "B": 149
+      },
+      "Text": "✔️"
+    },
+    "ClearButton": {
+      "Image": {
+        "Path": "",
+        "Online": false
+      },
+      "Font": {
+        "Name": "",
+        "Size": 18.0
+      },
+      "BackColor": {
+        "A": 0,
+        "R": 60,
+        "G": 60,
+        "B": 60
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 149,
+        "G": 149,
+        "B": 149
+      },
+      "Text": "🗑️"
+    },
+    "OpenFileButton": {
+      "Image": {
+        "Path": "",
+        "Online": false
+      },
+      "Font": {
+        "Name": "",
+        "Size": 18.0
+      },
+      "BackColor": {
+        "A": 0,
+        "R": 60,
+        "G": 60,
+        "B": 60
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 149,
+        "G": 149,
+        "B": 149
+      },
+      "Text": "📂"
+    },
+    "ExecuteFileButton": {
+      "Image": {
+        "Path": "",
+        "Online": false
+      },
+      "Font": {
+        "Name": "",
+        "Size": 18.0
+      },
+      "BackColor": {
+        "A": 0,
+        "R": 60,
+        "G": 60,
+        "B": 60
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 149,
+        "G": 149,
+        "B": 149
+      },
+      "Text": "✉️"
+    },
+    "SaveFileButton": {
+      "Image": {
+        "Path": "",
+        "Online": false
+      },
+      "Font": {
+        "Name": "",
+        "Size": 18.0
+      },
+      "BackColor": {
+        "A": 0,
+        "R": 60,
+        "G": 60,
+        "B": 60
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 149,
+        "G": 149,
+        "B": 149
+      },
+      "Text": "💾"
+    },
+    "OptionsButton": {
+      "Image": {
+        "Path": "",
+        "Online": false
+      },
+      "Font": {
+        "Name": "",
+        "Size": 18.0
+      },
+      "BackColor": {
+        "A": 0,
+        "R": 60,
+        "G": 60,
+        "B": 60
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 149,
+        "G": 149,
+        "B": 149
+      },
+      "Text": "⚙️"
+    },
+    "AttachButton": {
+      "Image": {
+        "Path": "",
+        "Online": false
+      },
+      "Font": {
+        "Name": "",
+        "Size": 18.0
+      },
+      "BackColor": {
+        "A": 0,
+        "R": 60,
+        "G": 60,
+        "B": 60
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 149,
+        "G": 149,
+        "B": 149
+      },
+      "Text": "💉"
+    },
+    "ScriptHubButton": {
+      "Image": {
+        "Path": "",
+        "Online": false
+      },
+      "Font": {
+        "Name": "",
+        "Size": 18.0
+      },
+      "BackColor": {
+        "A": 0,
+        "R": 60,
+        "G": 60,
+        "B": 60
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 149,
+        "G": 149,
+        "B": 149
+      },
+      "TextNormal": "📖",
+      "TextYield": "📖"
+    }
+  },
+  "ScriptHub": {
+    "Base": {
+      "Image": {
+        "Path": "https://foob.cc/i/B3nsVYf.png",
+        "Online": true
+      },
+      "BackColor": {
+        "A": 0,
+        "R": 51,
+        "G": 51,
+        "B": 51
+      },
+      "TopMost": true,
+      "Opacity": 1.0
+    },
+    "Logo": {
+      "Image": {
+        "Path": "https://i.imgur.com/6zx1Vmo.png",
+        "Online": false
+      }
+    },
+    "TopBox": {
+      "Enabled": true,
+      "BackColor": {
+        "A": 0,
+        "R": 60,
+        "G": 60,
+        "B": 60
+      }
+    },
+    "TitleBox": {
+      "Enabled": true,
+      "Font": {
+        "Name": "Segoe UI",
+        "Size": 16.0
+      },
+      "Text": "",
+      "BackColor": {
+        "A": 0,
+        "R": 60,
+        "G": 60,
+        "B": 60
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 255,
+        "G": 255,
+        "B": 255
+      }
+    },
+    "ScriptBox": {
+      "Font": {
+        "Name": "Segoe UI",
+        "Size": 16.0
+      },
+      "BackColor": {
+        "A": 0,
+        "R": 30,
+        "G": 30,
+        "B": 30
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 160,
+        "G": 160,
+        "B": 160
+      }
+    },
+    "DescriptionBox": {
+      "Font": {
+        "Name": "Segoe UI",
+        "Size": 14.0
+      },
+      "BackColor": {
+        "A": 0,
+        "R": 30,
+        "G": 30,
+        "B": 30
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 255,
+        "G": 255,
+        "B": 255
+      }
+    },
+    "MinimizeButton": {
+      "BackColor": {
+        "A": 0,
+        "R": 60,
+        "G": 60,
+        "B": 60
+      },
+      "GlyphColor": {
+        "A": 255,
+        "R": 255,
+        "G": 255,
+        "B": 255
+      }
+    },
+    "ExecuteButton": {
+      "Image": {
+        "Path": "",
+        "Online": false
+      },
+      "Font": {
+        "Name": "",
+        "Size": 15.0
+      },
+      "BackColor": {
+        "A": 0,
+        "R": 60,
+        "G": 60,
+        "B": 60
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 250,
+        "G": 250,
+        "B": 250
+      },
+      "TextNormal": "✔️",
+      "TextYield": "✔️"
+    },
+    "CloseButton": {
+      "Image": {
+        "Path": "",
+        "Online": false
+      },
+      "Font": {
+        "Name": "",
+        "Size": 15.0
+      },
+      "BackColor": {
+        "A": 0,
+        "R": 60,
+        "G": 60,
+        "B": 60
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 255,
+        "G": 255,
+        "B": 255
+      },
+      "Text": "❌"
+    }
+  }
+}

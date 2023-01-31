@@ -1,4 +1,4 @@
-##note: some themes are broken lol
+## note: some themes are broken lol
 
 # STOP TAKING CREDIT FOR MY THEMES!!! YOU DID NOT MAKE THEM!!
 ## https://v3rmillion.net/showthread.php?tid=1172192

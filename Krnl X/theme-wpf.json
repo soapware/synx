@@ -3,7 +3,7 @@
   "Load": {
     "Base": {
       "Image": {
-        "Path": "https://foob.cc/i/7GfLiyM.png",
+        "Path": "https://i.imgur.com/Z1vdHL4.png",
         "Online": true
       },
       "BackColor": {
@@ -29,7 +29,7 @@
     },
     "Logo": {
       "Image": {
-        "Path": "https://foob.cc/i/0LAbDdK.png",
+        "Path": "https://i.imgur.com/Q6ZxKeQ.png",
         "Online": false
       }
     },
@@ -86,7 +86,7 @@
   "Main": {
     "Base": {
       "Image": {
-        "Path": "https://foob.cc/i/zPyUOdj.png",
+        "Path": "https://i.imgur.com/vE9sOwb.png",
         "Online": true
       },
       "BackColor": {
@@ -129,7 +129,7 @@
     },
     "Logo": {
       "Image": {
-        "Path": "https://foob.cc/i/0LAbDdK.png",
+        "Path": "https://i.imgur.com/Q6ZxKeQ.png",
         "Online": false
       }
     },
@@ -397,7 +397,7 @@
   "ScriptHub": {
     "Base": {
       "Image": {
-        "Path": "https://foob.cc/i/mVG4sLZ.png",
+        "Path": "https://i.imgur.com/tonpfxT.png",
         "Online": true
       },
       "BackColor": {
@@ -411,7 +411,7 @@
     },
     "Logo": {
       "Image": {
-        "Path": "https://foob.cc/i/0LAbDdK.png",
+        "Path": "https://i.imgur.com/Q6ZxKeQ.png",
         "Online": false
       }
     },
